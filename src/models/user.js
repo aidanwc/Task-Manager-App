@@ -63,7 +63,7 @@ userSchema.virtual('tasks',{
     foreignField:'owner'
 })
 
-userSchema.methods.toJSON = async function () {
+userSchema.methods.toJSON = function () {
     const user = this
     const userObject = user.toObject()
 
