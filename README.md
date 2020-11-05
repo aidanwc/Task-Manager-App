@@ -1,3 +1,3 @@
 # Task-Manager-App
 
-A node js task managing app api.
+A task managing api built for users to track and organize their To-do's. The api was built using Node.js, Express, and MongoDB. 
